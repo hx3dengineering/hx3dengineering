@@ -67,7 +67,7 @@ export default function Contact() {
 
             <ScrollReveal delay={0.15}>
               <h2 style={{ fontSize: 'clamp(1.4rem,2.5vw,1.8rem)', fontWeight: 700, marginBottom: 28 }}>Send a message</h2>
-              <form onSubmit={handleSubmit} action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <form onSubmit={handleSubmit} action="https://formspree.io/f/xpqbgggl" method="POST">
                 <AnimatePresence>
                   {status === 'success' && (
                     <motion.div className="form-msg success" initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}>

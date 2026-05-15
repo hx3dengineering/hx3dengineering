@@ -76,7 +76,7 @@ export default function Quote() {
             </ScrollReveal>
 
             <ScrollReveal delay={0.15}>
-              <form onSubmit={handleSubmit} action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <form onSubmit={handleSubmit} action="https://formspree.io/f/xpqbgggl" method="POST">
                 <AnimatePresence>
                   {status === 'success' && (
                     <motion.div className="form-msg success" initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}>
